@@ -6,22 +6,22 @@
     background-color: rgb(3, 3, 39);
 }
 
-.left_header {
+.header .left_header {
     margin-left: 200px;
 }
 
-.right_header {
+.header .right_header {
     display: flex;
     gap: 20px;
     margin-right: 200px;
 }
 
-h1 {
+.header h1 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a {
+.header a {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
