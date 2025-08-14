@@ -1,0 +1,31 @@
+.info_section .info_title {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.info_section .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.info_section .blocks {
+    height: 250px;
+    width: 200px;
+}
+
+.info_section .block {
+    height: 200px;
+    width: 200px;
+    border: solid rgb(18, 149, 201) 5px;
+    border-radius: 20px;
+}
+
+.info_section .subtext {
+    text-align: center;
+    margin: 5px;
+}
