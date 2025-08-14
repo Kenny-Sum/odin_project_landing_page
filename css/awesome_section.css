@@ -1,0 +1,50 @@
+.awesome_section{
+    display: flex;
+    justify-content: center; 
+    height: 500px;
+    background-color: rgb(3, 3, 39);
+}
+
+.awesome_section .text_section,.placeholder {
+    height: 300px;
+    width: 600px;
+    margin: 100px 0px 100px 0px; 
+}
+
+.awesome_section .text_section{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.awesome_section h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+
+.awesome_section a {
+    color: white;
+    font-size: 20px;
+}
+
+.awesome_section button {
+    color: white;
+    background-color: rgb(37, 123, 236);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.awesome_section .placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+}
+
+
+
+
